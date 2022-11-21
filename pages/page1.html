@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+   
+</head>
+<body>
+  <div class="container">
+      
+             <header class="cabecalho">
+            <div class="photo"><img src="./img/logo.png" alt="" class="logo"></div>
+            <ul class="navp1">
+                <li class="navb">Cursos</li>
+                <li class="navb">Treinamentos</li>
+                <li class="navb">Consultorias</li>
+                <a href="#noticias">
+                    <li class="navb">Notícias</li>
+                </a>
+            </ul>
+            <div class="navbar">
+                <div class="pesquisa" id="pesquisa">
+                    <input type="text" id="input" class="input">
+                    <button class="lupabt" onclick="activeSearch()"><img src="./img/lupa.png" class="lupa"  alt=""></button>
+                </div>
+                <button class="entrar">Entrar</button>
+                <button class="cadBT">Cadastrar</button>
+            </div>
+        </header>
+             <main>
+                <button class="autoplayButton">
+                    <div class="start"></div>
+                    <div class="stop"></div>
+                </button>
+                <section class="banner">
+                    <img src="./img/banner2.png" alt="" class="teste">
+                    <img src="./img/banner2.png" alt="" class="teste">
+                    <img src="./img/banner2.png" alt="" class="teste">
+                  
+                </section>
+                <section class="cursos">
+                    <div class="minititle">
+                        <h2>Cursos e Treinamentos</h2>
+                    </div>
+
+
+
+                    <!-- Configuração dos controles -->
+
+                        <ul class="controls" id="custom-controls">
+                            <li class="prev">
+                            <img class="seta" src="./img/seta2.png" alt="">
+                            </li>
+                            <li class="next"> 
+                                <img class="seta" src="./img/seta.png" alt="">
+                            </li>
+                        </ul>
+
+
+
+                        <!-- ================================== -->
+
+                    <div class="carousel2">
+                         
+                            <div class="slot">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot2">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot3">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot4">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot5">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot6">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot7">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            <div class="slot8">
+                                <h3 class="name-curso">Curso RH</h3>
+                            </div>
+                            
+                            
+                            
+                       
+                    </div>
+                </section>
+               
+                <section class="section2">
+                    <div class="texto">
+                        <h2 class="infotitle">Sobre Nós</h2>
+                        
+                        <p class="textinfo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ea impedit explicabo voluptates, voluptatum est deserunt. Dolor quo ex id atque possimus ullam obcaecati, adipisci accusamus, harum in neque rem.lorem
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ea impedit explicabo voluptates, voluptatum est deserunt. Dolor quo ex id atque possimus ullam obcaecati, adipisci accusamus, harum in neque rem.lorem
+                        </p>
+                    <button class="btn"></button></div>
+                    <div class="photo0"><img class="phot" src="./img/PHOTO2.png" alt="">  <img class="seta3" src="./img/seta.png" alt=""></div>
+                </section>
+                <section class="section3">
+                    <h2 class="minititle2" id="noticias">Notícias</h2>
+                    <div class="minicontainer">
+                        <div class="noticia1"><h4 class="noticetitle">Morbi tristique senectus et netus
+                        </h4> <p class="noticedesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmoet dolore magna aliqua.
+                        </p></div>
+                        <div class="minicontainer2">
+                            <div class="noticia2"><h3 class="noticetitle2">Sit amet risus nullam eget
+                            </h3></div>
+                            <div class="noticia3"><h3 class="noticetitle3">Sit amet risus nullam eget
+                            </h3></div>
+                        </div>
+                    </div>
+                    <a href="#" class="more"> <span>Ver Mais</span></a>
+                </section>
+             </main>
+             <footer class="footer">
+                <div class="end"></div>
+             </footer>
+  </div>
+  <script src="page1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
